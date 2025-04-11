@@ -4,7 +4,7 @@
 void arraySort(char** arr, int size) //Sorts an array of strings in lexicographical order using bubble sort.
 {
 	int i, j;
-	for (i = 0; i < size - 1; i++)
+	for (i = 1; i < size - 1; i++)
 	{
 		for (j = 0; j < size - 1 - i; j++)
 		{
